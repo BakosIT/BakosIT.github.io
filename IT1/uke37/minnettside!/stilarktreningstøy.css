@@ -1,0 +1,46 @@
+body{
+  background-color: #424347
+}
+h1{
+  color: green;
+  text-align: center;
+}
+
+header{
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+main{
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+color:white
+margin: auto;
+margin-left: auto;
+margin-right: auto;
+width: 900px
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 0px;
+
+}
+li{
+  display:inline;
+}
+li a{
+  text-decoration: none;
+  background-color: lightgreen;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 12px;
+  color: black;
+}
+img{
+  width: 10%;
+  display: block;
+  margin: auto;
