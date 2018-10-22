@@ -1,0 +1,28 @@
+body{
+text-align: center;
+background-color: #f49b42;
+margin-left: auto 200px;
+margin-right: auto 200px;
+}
+
+header{
+background-color: black;
+color:white;
+text-align: center;
+}
+p{
+
+  margin-left:200px;
+  margin-right:200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:green;
+  border-radius: 5px;
+}
+h1{
+
+  font-style: italic;
+}
+ol{
+  
+}
