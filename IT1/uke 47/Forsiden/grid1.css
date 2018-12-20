@@ -1,61 +1,94 @@
-header{
-  grid-template-columns: 9% repeat(7,13%) ;
-  display: grid;
-  line-height: 7vw;
-  text-align: center;
-  color: white;
-  background-color:rgb(32, 38, 62);
-  List-style-type: none;
-  font-size: 14px;
-  font-family:verdana;
-  font-weight: bold;
+body{
+  margin: 0;
+  background-image: linear-gradient(to bottom,Black, white);
+  background-repeat:no-repeat;
 }
 
-#Lenovo{
-  grid-column: 3;
-}
-.knappLink:hover{
-  background-color: rgb(20, 29, 56);
-  transform: scale(1.5);
-  padding: 40px;
-  transition: 0.7s;
-  color: rgba(255, 255, 255, 0.14);
 
-}
 
-.knappLink{
-    text-decoration: none;
-    color: white;
-  }
 body{
   margin: 0px;
 }
 
 .mainsection{
-  margin: 1vw;
+  margin-bottom: 0vw;
   grid-gap: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 2vw;
+}
+
+.marginMainSection{
+  margin: 2vw;
 }
 
 .Macair{
-margin-top: 2vw;
-grid-column: span 3;
-align-self: center;
+  grid-column: span 3;
+  grid-row: span 2;
+  align-self: center;
+  text-align: center;
 }
-#ImgMacair{
-  width:90%;
-  height: 25vw;
-}
-.Macpro{
 
-margin-top: 2vw;
-grid-column: span 3;
-align-self: center;
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 2vw;
+}
+
+.dropdownBtn{
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 0.6s;
+  width: 30vw;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: Black;
+  font-size: 20px;
+}
+
+.dropdownGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+span{
+  font-size: 20px;
+  font-family: verdana;
+  font-weight: bold;
+
+}
+
+.Machair-IMG{
+  background-size: cover;
+  background-position: center;
+  padding: 15vw;
+}
+
+.Machair-IMG-en{
+  background-image: url("Macbook_air.png");
+}
+
+.Machair-IMG-to{
+  background-image: url("Macbook_pro.jpg");
+}
+
+
+.Macpro{
+  margin-top: 2vw;
+  grid-column: span 3;
+  align-self: center;
 }
 #ImgMacpro{
- width: 90%;
- height: 25vw;
+ width: 100%;
 }
 .Infoommac{
   grid-column: span 6;
@@ -70,6 +103,7 @@ align-self: center;
 }
 .Overskrift{
   grid-column:3/5;
+  text-align: center;
 }
 
 h1{
