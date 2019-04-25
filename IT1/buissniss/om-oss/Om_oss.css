@@ -1,0 +1,104 @@
+body{
+  margin:0vw;
+}
+
+header{
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 4vw;
+  font-size: 2vw;
+  width: 32%;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.knappLink:hover{
+
+  transition: 0.5s;
+  background-color: red;
+}
+
+
+.knappLink{
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+
+}
+
+.LogoLink{
+  grid-column: 2;
+  width: 50%;
+}
+
+.col-span-logo{
+
+  grid-column: 3;
+
+}
+
+.usynlig{
+  opacity: 0;
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+  transition: 0.7s;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+.dropdown:hover{
+
+  background-color: rgba(4, 150, 71, 0.84);
+  transition: 0.7s;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color:rgba(4, 150, 71, 0.84);
+  width: 100%;
+
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3vw;
+}
+
+.Tekst{
+  grid-column: 2;
+  text-align: center;
+}
+
+.OverskriftO{
+  text-align: center;
+  grid-column: 2;
+}
+
+.Kontaktinfo{
+  text-align: center;
+  margin-top: 8vw;
+  border-top: solid;
+  border-width: 0.2vw;
+  border-color: red;
+  color: black;
+}

@@ -1,0 +1,17 @@
+p:hover{
+  padding: 30px;
+}
+img{
+width: 300px;
+transition: 2s;
+display: block;
+margin: auto;
+}
+img:hover{
+  transform: scale(1.5); <!-- forstørrer bilde med 1,5-->
+  transform: translateX(1000px);
+}
+
+img:active{
+  transform: translateX(1000px);
+}

@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(62, 134, 54);
+}
+
+#hoved{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+
+#lantanider{
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-gap: 5px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.grunnstoff{
+  background-color: #eee;
+}
+.color1{
+  background-color: lightgreen;
+}
+.color2{
+  background-color: rgb(59, 39, 69);
+}
+.color3{
+  background-color: rgb(252, 9, 243);
+}
+
+.color4{
+  background-color: red;
+}
+
+.color5{
+  background-color: rgb(241, 240, 141);
+}
+.color6{
+  background-color: yellow;
+}
+.color7{
+  background-color: lightblue;
+}
+.color8{
+  background-color: darkorange;
+}
+.color9{
+  background-color: white;
+}
+
+
+.col-span-16{
+  grid-column: span 16;
+}
+
+.col-span-15{
+  grid-column: span 15
+}
+.row-span-5{
+  grid-row: span 5;
+}
+.usynlig{
+  opacity: 0;
+}
+.col-span-10{
+  grid-column: span 10;
+}
+
+h1{
+  color: brown;
+  text-align: center;
+}

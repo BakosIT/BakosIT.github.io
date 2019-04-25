@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  margin-top: 0vw;
+  background-color: rgba(241, 221, 207, 0.89);
+
+}
+
+header{
+
+  background-color: rgb(45, 184, 88);
+  display: grid;
+  grid-template-columns: 25% repeat(5,15%);
+  line-height: 6vw;
+  text-align: center;
+  border-bottom: .2vw solid rgba(4, 150, 71, 0.84);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  height: 6vw;
+
+}
+
+.LogoLink{
+
+  grid-column: 1;
+
+}
+
+#Logo img{
+
+display: block;
+width: 100px;
+
+}
+
+.knappLink:hover{
+
+  transition: 0.5s;
+  background-color: rgb(45, 120, 15);
+  color: white;
+}
+
+.col-span-logo{
+
+  grid-column: span 1;
+
+}
+
+.usynlig{
+
+  opacity: 0;
+
+}
+
+
+.knappLink{
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+  transition: 0.7s;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+.dropdown:hover{
+
+  background-color: rgba(4, 150, 71, 0.84);
+  transition: 0.7s;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color:rgba(4, 150, 71, 0.84);
+  width: 100%;
+
+}
+
+
+
+.buttons{
+
+  margin-top: 1.5vw;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: .8vw;
+
+}
+
+#buttons-id{
+
+  font-size: 1vw;
+  background-color: rgb(39, 162, 14);
+  border: .15vw solid rgb(10, 11, 85);
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border-radius: 1vw;
+
+}
+
+#secFotball{
+
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  margin-top: 2vw;
+
+}
+
+.spiller{
+
+  background-color: grey;
+  text-align: center;
+  margin-top: 1vw;
+  color: white;
+  font-style: bold;
+}

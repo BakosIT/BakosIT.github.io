@@ -1,0 +1,148 @@
+body{
+  margin:0vw;
+}
+
+header{
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 4vw;
+  font-size: 2vw;
+  width: 32%;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.home-main{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1vw;
+  margin: 1vw;
+}
+
+.home-main-1{
+  background-color: blue;
+  grid-row: span 3;
+}
+
+.home-main-2{
+  background-color: yellow;
+}
+
+.home-main-3{
+  background-color: red;
+  grid-row: span 3;
+}
+
+.home-main-4{
+  background-color: green;
+}
+
+.home-main-5{
+  background-color: pink;
+}
+
+.home-main-6{
+  background-color: black;
+}
+
+.knappLink:hover{
+
+  transition: 0.5s;
+  background-color: red;
+}
+
+
+.knappLink{
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+
+}
+
+.LogoLink{
+  width: 50%;
+}
+
+.col-span-logo{
+
+  grid-column: 3;
+
+}
+
+.usynlig{
+  opacity: 0;
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+  transition: 0.7s;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+.dropdown:hover{
+
+  background-color: rgba(4, 150, 71, 0.84);
+  transition: 0.7s;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color:rgba(4, 150, 71, 0.84);
+  width: 100%;
+
+}
+
+
+main{
+  display: grid;
+  grid-template-columns:repeat(6,1fr);
+  margin-top: 3vw;
+}
+
+.Reklame1{
+  grid-column: 1;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Storbilde{
+  grid-column: 2/5;
+  width: 80%;
+  margin:auto;
+}
+
+
+.Reklame2{
+  grid-column: 6;
+  width: 80%;
+  margin:auto;
+}
+
+.Kontaktinfo{
+  text-align: center;
+  margin-top: 8vw;
+  border-top: solid;
+  border-width: 0.2vw;
+  border-color: red;
+  color: black;
+}

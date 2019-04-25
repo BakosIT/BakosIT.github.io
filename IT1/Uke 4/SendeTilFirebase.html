@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Min første firebase-database</title>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBAFmBOK6_oL3os5gPPqDbK6icEh8CgT4g",
+    authDomain: "tmy-first-database-it1.firebaseapp.com",
+    databaseURL: "https://tmy-first-database-it1.firebaseio.com",
+    projectId: "tmy-first-database-it1",
+    storageBucket: "tmy-first-database-it1.appspot.com",
+    messagingSenderId: "786128287421"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  </head>
+  <body>
+    <p>Obs! Denne siden inneholder javascript.</p>
+
+    <script type="text/javascript">
+
+    // Variabler som referer til firebase-databasen
+
+
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktlist"); //Referer til kontaktliste i databasen
+
+
+      let kontakt ={
+        "firstName":"Barack",
+        "lastName":"Obama"
+      }
+
+      kontaktliste.push(kontakt);
+
+      function lesFraDb(snapshot) {
+        let nyKontakt= snapshot.val();
+        document.body.innerHTML +=`<p>Fornavn:${nyKontakt.firstName}. Etternavn: ${nyKontakt.lastName}</p>`;
+      }
+
+      kontaktliste.on("child_added",lesFraDb);
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,51 @@
+Body{
+  margin: 0;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#hjem{
+  grid-column: 3;
+}
+
+.Middelssak{
+grid-column: span 2;
+grid-row: span 2;
+}
+
+.storsak{
+grid-column: span 3;
+grid-row: span 3;
+}
+
+.litensak{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+header{
+background-color: Red;
+grid-template-columns: 10% 60% repeat(3,10%);
+display: grid;
+line-height: 2em;
+align-items:center;
+}
+
+.knapp{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.25vw;
+}
+
+
+
+img{
+  width: 90%
+}

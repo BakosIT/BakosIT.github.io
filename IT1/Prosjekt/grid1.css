@@ -1,0 +1,235 @@
+body{
+  margin: 0;
+  background-image: linear-gradient(to bottom,Black, white);
+  background-repeat:no-repeat;
+}
+
+.mainsection-Lenovo{
+  grid-template-columns: 50% 50%;
+  display: grid;
+  grid-gap: 5%;
+  padding: 2vw;
+}
+
+.mainsection{
+  margin-bottom: 0vw;
+  grid-gap: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 2vw;
+}
+
+.marginMainSection{
+  margin: 2vw;
+}
+
+.Macair{
+  grid-column: span 3;
+  grid-row: span 2;
+  align-self: center;
+  text-align: center;
+  position: relative;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.7s;
+}
+
+.dropdown:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.7s;
+}
+
+.dropdownBtn{
+  color: white;
+}
+
+.dropdownBtn-nav{
+  background-image: url("round_search_white_18dp.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1vw;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 0.6s;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: Black;
+
+}
+
+.dropdownGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+span{
+  font-size: 20px;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+.Machair-IMG{
+  background-size: cover;
+  background-position: center;
+  padding: 15vw;
+}
+
+.Machair-IMG-en{
+  background-image: url("Macbook_air.png");
+}
+
+.Machair-IMG-to{
+  background-image: url("Macbook_pro.jpg");
+}
+
+.Macpro{
+  margin-top: 2vw;
+  grid-column: span 3;
+  align-self: center;
+  position: relative;
+  text-align: center;
+}
+.Nyestetilbudenemac{
+  margin-top: 2vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-self: center;
+  position: relative;
+  text-align: center;
+}
+
+.Nyestetilbudene{
+  position: relative;
+
+}
+.Produkttekst2{
+  color: white;
+  position: absolute;
+  bottom: 40%;
+  left: 28%;
+  font-size: 20px;
+  font-family:verdana;
+  font-style: italic;
+}
+
+.Produkttekst3{
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  font-size: 20px;
+  font-family:verdana;
+  font-style: italic;
+}
+
+
+#ImgMacpro{
+ width: 100%;
+}
+
+
+
+#ImgInfoommac{
+  width: 90%;
+  height: 25vw;
+}
+
+.Overskrift-L{
+  grid-column: span 2;
+  text-align: center;
+
+}
+
+
+h1{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+
+
+.Kontaktinfo{
+  text-align: center;
+  margin-top: 8vw;
+  background-color: #212121;
+  border-top: solid;
+  border-width: 0.2vw;
+  border-color: rgb(189, 79, 0);
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.Lenovo1{
+  margin-top: 2vw;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+
+
+}
+
+#Lenovo10{
+  width: 100%;
+}
+
+.Lenovo2{
+  margin-top: 2vw;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+#Lenovo20{
+ width: 100%;
+}
+
+.Infoomlenovo{
+  width: 80%;
+  grid-column: span 2;
+  margin: auto;
+}
+
+#ImgInfomlenovo{
+  width: 100%;
+}
+
+.Kontrakt_Lenovo{
+  width: 80%;
+  align-self: center;
+  margin-top: 2vw;
+  margin: auto;
+}
+
+#ImgKontraktLenovo{
+  width: 100%;
+}
+
+.Kontaktlenovo{
+  width: 80%;
+  align-self: center;
+  margin-top: 2vw;
+  margin: auto;
+}

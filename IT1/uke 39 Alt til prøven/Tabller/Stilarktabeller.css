@@ -1,0 +1,23 @@
+body{
+  background-color: grey;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+
+
+th{
+ background-color:#242d4c;
+ border: 1px solid black;
+ padding: 5px;
+}
+
+td{
+  background-color: #0f3ad8;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+}

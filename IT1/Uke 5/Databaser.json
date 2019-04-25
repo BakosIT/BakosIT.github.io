@@ -1,0 +1,79 @@
+{
+  "prøvSelvS.190":{
+    "1":{
+        "oppgave":"Hva er en primærnøkkel?",
+            "svar":"En primærnøkkel er en unik nøkkel som vi bruker for å finne opplysninger raskt. Skille objekter i databasen."
+}
+},
+
+    "2":{
+        "oppgave":"Hva tror du kan være primærnøkler for ",
+            "A":"Elever på en skole?",
+                "svar":"FeideID kan bli brukt",
+
+            "B":"Fritidsbåter",
+                "svar":"Båtnummer",
+
+            "C":"Planter",
+                "svar":"Latin nummer",
+
+            "D":"Kontaktene mine",
+                "svar":"Telefon nummer",
+
+            "E":"Stjerner på himmelen",
+                "svar":"Navnet på stjernen."
+    },
+
+
+    "3":{
+      "oppgave":"Hva er en kandidatnøkkel?",
+          "svar":"Kandidatnøkkel er alle alternativene som en primærnøkkel kan værw
+                  F.eks kan personnummer være en kandidatnøkkel"
+    },
+
+    "4":{
+      "oppgave":"Hva er en fremmednøkkel?",
+          "svar":"Vi bruker en fremmednøkkel for å unngå dobbellagring
+                  Dvs. at kun den nye informasjonen som ikke er lagret, blir lagra.
+                  Vi lagrer da, kun den nye referansjen, fremmednøkkelen, sammen med
+                  den nye teksten og bildet"
+    },
+
+    "5":{
+      "oppgave":"Hva er normalisering?",
+          "svar":"Det vi gjør utfra fremmednøkkelen"
+    },
+
+    "7":{
+      "oppgave":"Opprett objekter og sett opp verdiene nednfor slik at de tilfredsstiller atomærkravet",
+          "svar":"Første objekt",
+
+    },
+
+    "filmer":{
+      "3":{
+        "Tittel":"Sharknado",
+        "RegissørFornavn":"Bob",
+        "Etternavn":"Stern",
+        "Filmselskap":"Universal studios",
+        "Sluppet": 2004
+
+    },
+
+    "5":{
+      "Tittel":"Star Wars",
+      "RegissørFornavn":"Steven",
+      "Etternavn":"Spielberg",
+      "Filmselskap":"Paramount",
+      "Sluppet": 2004
+
+    },
+
+    "8":{
+      "Tittel":"E.T",
+      "RegissørFornavn":"Steven",
+      "Etternavn":"Spielberg",
+      "Filmselskap":"Paramount",
+      "Sluppet": 2004
+    }
+  }

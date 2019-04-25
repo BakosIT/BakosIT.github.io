@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SpillereJavascript</title>
+    <link rel="stylesheet" href="SpillereJavascript.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCedysRszUhQrzthrNBy1F5xiTZpWGws0g",
+    authDomain: "prosjekt1-ad300.firebaseapp.com",
+    databaseURL: "https://prosjekt1-ad300.firebaseio.com",
+    projectId: "prosjekt1-ad300",
+    storageBucket: "prosjekt1-ad300.appspot.com",
+    messagingSenderId: "718699433718"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  </head>
+    <body>
+
+      <header>
+
+        <a id="Logo" class="LogoLink" href="../forside/Forsideprosjekt.html"> <img src="../bilder/BALLUP1.png" alt=""> </a>
+        <a class="knappLink col-span-logo usynlig"href="#"></a>
+        <a class="knappLink"href="../spiller/Spillere1.html">Spillere</a>
+        <a class="knappLink"href="../Golazo/Mål.html">Beste Mål</a>
+        <a class="knappLink"href="../Tabell/Tabell.html">Tabeller</a>
+
+
+            <section class="dropdown">
+                <img class="søk-knapp" src="../bilder/round_search_white_18dp-kopi.png"></img>
+                    <form class="dropdown-content">
+
+                        <input type="text" name="" value="">
+                        <button type="submit" name="button">search</button>
+
+                    </form>
+            </section>
+
+        </header>
+
+
+  <main>
+
+      <div class="buttons">
+          <button id="buttons-id" type="button" name="button" onclick="VisVB()">Venstre Beck</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisVMS()">Venstre Midtstopper</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisKeeper()">Keeper</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisHMS()">Høyre Midtstopper</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisLHB()">Høyre Beck</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisDM()">Dyp midtbane</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisCM()">Midtbane</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisRV()">Høyre Kant</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisVV()">Venstre Kant</button>
+          <button id="buttons-id" type="button" name="button" onclick="VisSA()">Spiss</button>
+          <button id="buttons-id" type="button" name="button" onclick="visAlleSpillere()">Alle Spillere</button>
+      </div>
+
+      <main id="mainindex">
+            <p id="loading">LOADING PLAYERS....</p>
+            <section id="secFotball">
+
+            </section>
+
+      </main>
+
+<script type="text/javascript">
+
+  const main =document.querySelector("#secFotball");
+
+  const load = document.querySelector("#loading")
+
+  const db = firebase.database();
+
+  const Laliga= db.ref("Spillere/Laliga")
+
+      visAlleSpillere();
+
+      function visAlleSpillere(){
+
+      secFotball.innerHTML=``;
+      Laliga.on("child_added",genererHTML);
+
+      }
+
+      function fjernAlle (){
+        secFotball.innerHTML=``;
+      }
+
+
+      function VisVB (){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("VB").on("child_added",genererHTML);
+
+      }
+
+      function VisVMS (){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("VMS").on("child_added",genererHTML);
+
+      }
+
+      function VisKeeper(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("KE").on("child_added",genererHTML);
+
+      }
+
+      function VisHMS (){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("HMS").on("child_added",genererHTML);
+
+      }
+
+      function VisHB(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("HB").on("child_added",genererHTML);
+
+      }
+
+
+      function VisDM(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("DM").on("child_added",genererHTML);
+
+      }
+
+
+
+      function VisCM(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("CM").on("child_added",genererHTML);
+
+      }
+
+
+      function VisVV(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("VV").on("child_added",genererHTML);
+
+      }
+
+      function VisRV(){
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("RV").on("child_added",genererHTML);
+
+      }
+
+      function VisSA(){
+
+        secFotball.innerHTML=``;
+        Laliga.orderByChild("position").equalTo("SA").on("child_added",genererHTML);
+      }
+
+
+
+      function genererHTML(snapshot){
+        let key = snapshot.key;
+        let objekt = snapshot.val();
+
+
+        main.innerHTML +=`
+            <article class="spiller">
+              <h1>${objekt.Name}</h1>
+
+              <img src="${objekt.Photo}" alt="">
+              <p>Alder: ${objekt.Age}</p>
+              <p>Posisjon: ${objekt.position}
+              <p>Nasjonalitet: ${objekt.Nationality}
+              <p>Lag: ${objekt.Team}
+
+              <br>
+              <br>
+
+              <a href="ValgtSpiller.html">Les mer</a>
+              
+            </article>
+        `;
+
+        if (secFotball != 0) {
+          load.innerHTML = ``;
+        }
+      }
+
+
+    </script>
+</main>
+</body>
+</html>

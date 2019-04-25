@@ -1,0 +1,44 @@
+body{
+background-color: #511616
+}
+
+h1{
+  color:black;
+  text-align:center;
+  background-color: #2b4c2f;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  text-align: center;
+  margin-left: 0px;
+}
+li{
+  display: inline;
+  text-align: center;
+}
+li a{
+  text-decoration:none;
+  background-color: #050587;
+  padding:15px;
+  border-radius: 10px;
+  margin: 12px;
+  color:black;
+
+}
+p{
+  border-style: solid;
+  border-color: white;
+  color: green;
+}
+img{
+  width: 200px;
+  display: block;
+  margin: auto;
+  background-image: url("");
+
+}
+header{
+  border-color:#2b4c2f;
+}

@@ -1,0 +1,32 @@
+{
+  "Kontakter":{
+    "1":{
+      "firstName":"Alexander",
+      "lastName":"Bakos",
+      "telephone":95465440,
+      "adress":"Nordengveien 6, 0467 Oslo",
+      "boker":["Jo Nesbø","skrik","Smil"],
+      "likerInternett":true,
+      "utdanning":{
+        "Videregående":"Sandvika videregående",
+        "hoyereutdanning":"Ntnu trondheim",
+        "Spill":"Clash of clans"
+      }
+    },
+    "2":{
+      "firstName":"Elias",
+      "lastName":"melkeraaen",
+      "telephone":95413970,
+      "adress":"Rugdefaret 105, 1396 Billingstad"
+    },
+    "3":{
+      "firstName":"Alexander",
+      "lastName":"Bakos",
+      "telephone":95465440,
+      "Karakterer":"Oversikt",
+        "Norsk":4,
+        "Matte":4,
+        "Geografi":4
+    }
+  }
+}
