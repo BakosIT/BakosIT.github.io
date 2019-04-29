@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="SpillereJavascript.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-    <script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCedysRszUhQrzthrNBy1F5xiTZpWGws0g",
@@ -163,13 +164,11 @@
       function genererHTML(snapshot){
         let key = snapshot.key;
         let objekt = snapshot.val();
-
-
+        let parent = snapshot.ref.parent.key;
         main.innerHTML +=`
             <article class="spiller">
               <h1>${objekt.Name}</h1>
-
-              <img src="${objekt.Photo}" alt="">
+              <img class="Bilde" src="${objekt.Photo}" alt="">
               <p>Alder: ${objekt.Age}</p>
               <p>Posisjon: ${objekt.position}
               <p>Nasjonalitet: ${objekt.Nationality}
@@ -177,9 +176,7 @@
 
               <br>
               <br>
-
-              <a href="ValgtSpiller.html">Les mer</a>
-              
+              <a href="ValgtSpiller.html?key=${key}&parent=${parent}">Les mer</a>
             </article>
         `;
 
@@ -189,7 +186,24 @@
       }
 
 
+
     </script>
 </main>
+
+
+<footer>
+  <section class="Kontaktinfo">
+    <h3>Kontaktinfo</h3>
+
+      <div>
+        Telefon nummer | 94839035 <br>
+        Adresse | Bergerveien 322 <br>
+        åpningstider på telefon | 11.00-19.00 <br>
+        Bli medlem for oppdateringer!
+      </div>
+
+  </section>
+</footer>
+
 </body>
 </html>

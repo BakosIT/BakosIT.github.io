@@ -63,249 +63,260 @@
 					},
 
 
-					"L007": {
-	            "Name": "K. Benzema",
-	            "Age": 30,
-	            "Photo": "https://cdn.sofifa.org/players/4/19/165153.png",
-	            "Nationality": "France",
-							"Team":"Real Madrid",
-							"position":"SA"
-},
-							"L008": {
-			            "Name": "Marcelo",
-			            "Age": 30,
-			            "Photo": "https://cdn.sofifa.org/players/4/19/176676.png",
-			            "Nationality": "Brazil",
-									"Team":"Real Madrid",
-									"position":"VB"
+				"L007": {
+	          "Name": "K. Benzema",
+	         	"Age": 30,
+	         	"Photo": "https://cdn.sofifa.org/players/4/19/165153.png",
+           	"Nationality": "France",
+						"Team":"Real Madrid",
+						"position":"SA"
+
+					},
 
 
-							},
+				"L008": {
+		       	"Name": "Marcelo",
+		       	"Age": 30,
+		       	"Photo": "https://cdn.sofifa.org/players/4/19/176676.png",
+		       	"Nationality": "Brazil",
+						"Team":"Real Madrid",
+						"position":"VB"
 
-							"L009": {
-									"Name": "Jordi Alba",
-									"Age": 29,
-									"Photo": "https://cdn.sofifa.org/players/4/19/189332.png",
-									"Nationality": "Spain",
-									"Team":"Barcelona",
-									"position":"VB"
-},
-
-
-						"L010": {
-								"Name": "M. ter Stegen",
-								"Age": 26,
-								"Photo": "https://cdn.sofifa.org/players/4/19/192448.png",
-								"Nationality": "Germany",
-								"Team":"Barcelona",
-								"position":"KE"
-
-},
-"L011": {
-		"Name": "Carvajal",
-		"Age": 26,
-		"Photo": "https://cdn.sofifa.org/players/4/19/204963.png",
-		"Nationality": "Spain",
-		"Team":"Real Madrid",
-		"position":"HB"
-
-	},
-
-	"L012": {
-			"Name": "Marco Asensio",
-			"Age": 22,
-			"Photo": "https://cdn.sofifa.org/players/4/19/220834.png",
-			"Nationality": "Spain",
-			"Team":"Real Madrid",
-			"position":"SA"
-
-},
+					},
 
 
-"L013": {
-		"Name": "Casemiro",
-		"Age": 26,
-		"Photo": "https://cdn.sofifa.org/players/4/19/200145.png",
-		"Nationality": "Brazil",
-		"Team":"Real Madrid",
-		"position":"DM"
+				"L009": {
+						"Name": "Jordi Alba",
+						"Age": 29,
+						"Photo": "https://cdn.sofifa.org/players/4/19/189332.png",
+						"Nationality": "Spain",
+						"Team":"Barcelona",
+						"position":"VB"
 
-	},
-
-	"L014": {
-			"Name": "J. Oblak",
-			"Age": 25,
-			"Photo": "https://cdn.sofifa.org/players/4/19/200389.png",
-			"Nationality": "Slovenia",
-			"Team":"Atletico Madrid",
-			"position":"DM"
-},
-
-"L015": {
-		"Name": "D. Godín",
-		"Age": 32,
-		"Photo": "https://cdn.sofifa.org/players/4/19/182493.png",
-		"Nationality": "Uruguay",
-		"Team":"Atletico Madrid",
-		"position":"HMS"
-},
+					},
 
 
-"L016": {
-		"Name": "G. Bale",
-		"Age": 28,
-		"Photo": "https://cdn.sofifa.org/players/4/19/173731.png",
-		"Nationality": "Wales",
-		"Team":"Real Madrid",
-		"position":"VV"
-},
+				"L010": {
+						"Name": "M. ter Stegen",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/192448.png",
+						"Nationality": "Germany",
+						"Team":"Barcelona",
+						"position":"KE"
 
-"L017": {
-		"Name": "A. Griezmann",
-		"Age": 27,
-		"Photo": "https://cdn.sofifa.org/players/4/19/194765.png",
-		"Nationality": "France",
-		"Team":"Atletico Madrid",
-		"position":"SA"
-
-},
-
-"L018": {
-		"Name": "Arthur",
-		"Age": 21,
-		"Photo": "https://cdn.sofifa.org/players/4/19/230658.png",
-		"Nationality": "Brazil",
-		"Team":"Barcelona",
-		"position":"SA"
-
-	},
-
-	"L019": {
-			"Name": "Isco",
-			"Age": 26,
-			"Photo": "https://cdn.sofifa.org/players/4/19/197781.png",
-			"Nationality": "Spain",
-			"Team":"Barcelona",
-			"position":"CM"
-},
-
-"L020": {
-		"Name": "S. Umtiti",
-		"Age": 24,
-		"Photo": "https://cdn.sofifa.org/players/4/19/205600.png",
-		"Nationality": "France",
-		"Team":"Barcelona",
-		"position":"VMS"
-
-	},
-
-	"L021": {
-			"Name": "Filipe Luís",
-			"Age": 32,
-			"Photo": "https://cdn.sofifa.org/players/4/19/164169.png",
-			"Nationality": "Brazil",
-			"Team":"Barcelona",
-			"position":"VB"
+					},
 
 
-		},
+				"L011": {
+						"Name": "Carvajal",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/204963.png",
+						"Nationality": "Spain",
+						"Team":"Real Madrid",
+						"position":"HB"
 
-		"L022": {
-				"Name": "Pablo Sarabia",
-				"Age": 26,
-				"Photo": "https://cdn.sofifa.org/players/4/19/198950.png",
-				"Nationality": "Spain",
-				"Team":"Barcelona",
-				"position":"RV"
-},
+					},
 
-"L023": {
-		"Name": "K. Navas",
-		"Age": 31,
-		"Photo": "https://cdn.sofifa.org/players/4/19/193041.png",
-		"Nationality": "Costa Rica",
-		"Team":"Barcelona",
-		"position":"KE"
+				"L012": {
+						"Name": "Marco Asensio",
+						"Age": 22,
+						"Photo": "https://cdn.sofifa.org/players/4/19/220834.png",
+						"Nationality": "Spain",
+						"Team":"Real Madrid",
+						"position":"SA"
 
-	},
-
-	"L024": {
-			"Name": "Q. Promes",
-			"Age": 26,
-			"Photo": "https://cdn.sofifa.org/players/4/19/208808.png",
-			"Nationality": "Netherlands",
-			"Team":"Sevilla FC",
-			"position":"RV"
+					},
 
 
-		},
+				"L013": {
+						"Name": "Casemiro",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/200145.png",
+						"Nationality": "Brazil",
+						"Team":"Real Madrid",
+						"position":"DM"
 
-		"L025": {
-				"Name": "A. Vidal",
-				"Age": 31,
-				"Photo": "https://cdn.sofifa.org/players/4/19/181872.png",
-				"Nationality": "Chile",
-				"Team":"Barcelona",
-				"position":"CM"
-}
-},
+					},
+
+				"L014": {
+						"Name": "J. Oblak",
+						"Age": 25,
+						"Photo": "https://cdn.sofifa.org/players/4/19/200389.png",
+						"Nationality": "Slovenia",
+						"Team":"Atletico Madrid",
+						"position":"DM"
+
+				},
+
+				"L015": {
+						"Name": "D. Godín",
+						"Age": 32,
+						"Photo": "https://cdn.sofifa.org/players/4/19/182493.png",
+						"Nationality": "Uruguay",
+						"Team":"Atletico Madrid",
+						"position":"HMS"
+
+				},
+
+
+				"L016": {
+						"Name": "G. Bale",
+						"Age": 28,
+						"Photo": "https://cdn.sofifa.org/players/4/19/173731.png",
+						"Nationality": "Wales",
+						"Team":"Real Madrid",
+						"position":"VV"
+
+				},
+
+				"L017": {
+						"Name": "A. Griezmann",
+						"Age": 27,
+						"Photo": "https://cdn.sofifa.org/players/4/19/194765.png",
+						"Nationality": "France",
+						"Team":"Atletico Madrid",
+						"position":"SA"
+
+				},
+
+				"L018": {
+						"Name": "Arthur",
+						"Age": 21,
+						"Photo": "https://cdn.sofifa.org/players/4/19/230658.png",
+						"Nationality": "Brazil",
+						"Team":"Barcelona",
+						"position":"SA"
+
+				},
+
+				"L019": {
+						"Name": "Isco",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/197781.png",
+						"Nationality": "Spain",
+						"Team":"Barcelona",
+						"position":"CM"
+
+				},
+
+				"L020": {
+						"Name": "S. Umtiti",
+						"Age": 24,
+						"Photo": "https://cdn.sofifa.org/players/4/19/205600.png",
+						"Nationality": "France",
+						"Team":"Barcelona",
+						"position":"VMS"
+
+				},
+
+				"L021": {
+						"Name": "Filipe Luís",
+						"Age": 32,
+						"Photo": "https://cdn.sofifa.org/players/4/19/164169.png",
+						"Nationality": "Brazil",
+						"Team":"Barcelona",
+						"position":"VB"
+
+				},
+
+				"L022": {
+						"Name": "Pablo Sarabia",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/198950.png",
+						"Nationality": "Spain",
+						"Team":"Barcelona",
+						"position":"RV"
+
+				},
+
+
+				"L023": {
+						"Name": "K. Navas",
+						"Age": 31,
+						"Photo": "https://cdn.sofifa.org/players/4/19/193041.png",
+						"Nationality": "Costa Rica",
+						"Team":"Barcelona",
+						"position":"KE"
+
+					},
+
+				"L024": {
+						"Name": "Q. Promes",
+						"Age": 26,
+						"Photo": "https://cdn.sofifa.org/players/4/19/208808.png",
+						"Nationality": "Netherlands",
+						"Team":"Sevilla FC",
+						"position":"RV"
+
+					},
+
+
+				"L025": {
+						"Name": "A. Vidal",
+						"Age": 31,
+						"Photo": "https://cdn.sofifa.org/players/4/19/181872.png",
+						"Nationality": "Chile",
+						"Team":"Barcelona",
+						"position":"CM"
+
+				}
+			},
 
 
 		"PremierLeague": {
 			"E001": {
-				"Name": "M. Salah",
-				"Age": 26,
-				"Photo": "https://cdn.sofifa.org/players/4/19/209331.png",
-				"Nationality": "Egypt",
-				"Team": "Liverpool",
-				"position":"HV"
+					"Name": "M. Salah",
+					"Age": 26,
+					"Photo": "https://cdn.sofifa.org/players/4/19/209331.png",
+					"Nationality": "Egypt",
+					"Team": "Liverpool",
+					"position":"HV"
 
 			},
 
 			"E002": {
-				"Name": "De Gea",
-				"Age": 27,
-				"Photo": "https://cdn.sofifa.org/players/4/19/193080.png",
-				"Nationality": "Spain",
-				"Team": "Manchester United",
-				"position":"KE"
-
-
+					"Name": "De Gea",
+					"Age": 27,
+					"Photo": "https://cdn.sofifa.org/players/4/19/193080.png",
+					"Nationality": "Spain",
+					"Team": "Manchester United",
+					"position":"KE"
 
 			},
+
 
 			"E003": {
-				"Name": "M. Rashford",
-				"Age": 20,
-				"Photo": "https://cdn.sofifa.org/players/4/19/231677.png",
-				"Nationality": "England",
-				"Team": "Manchester United",
-				"position": "LV"
-
+					"Name": "M. Rashford",
+					"Age": 20,
+					"Photo": "https://cdn.sofifa.org/players/4/19/231677.png",
+					"Nationality": "England",
+					"Team": "Manchester United",
+					"position": "LV"
 
 			},
+
 
 			"E004": {
-				"Name": "R. Lukaku",
-				"Age": 25,
-				"Photo": "https://cdn.sofifa.org/players/4/19/192505.png",
-				"Nationality": "Belgium",
-				"Team": "Manchester United",
-				"position":"SA"
-
+					"Name": "R. Lukaku",
+					"Age": 25,
+					"Photo": "https://cdn.sofifa.org/players/4/19/192505.png",
+					"Nationality": "Belgium",
+					"Team": "Manchester United",
+					"position":"SA"
 
 			},
+
 
 			"E005": {
-				"Name": "J. Lingard",
-				"Age": 25,
-				"Photo": "https://cdn.sofifa.org/players/4/19/207494.png",
-				"Nationality": "England",
-				"Team": "Manchester United",
-				"position": "HV"
-
+					"Name": "J. Lingard",
+					"Age": 25,
+					"Photo": "https://cdn.sofifa.org/players/4/19/207494.png",
+					"Nationality": "England",
+					"Team": "Manchester United",
+					"position": "HV"
 
 			},
+
 
 			"E006": {
 					"Name": "K. De Bruyne",
@@ -317,6 +328,7 @@
 
 			},
 
+
 			"E007": {
 					"Name": "E. Hazard",
 					"Age": 27,
@@ -325,54 +337,63 @@
 					"Team": "Chelsea",
 					"position":"VV"
 
-	},
-
-	"E008": {
-			"Name": "David Silva",
-			"Age": 32,
-			"Photo": "https://cdn.sofifa.org/players/4/19/168542.png",
-			"Nationality": "Spain",
-			"Team": "Manchester City",
-			"position": "CM"
-
-},
-"E009": {
-		"Name": "C. Eriksen",
-		"Age": 26,
-		"Photo": "https://cdn.sofifa.org/players/4/19/190460.png",
-		"Nationality": "Denmark",
-		"Team": "Tottenham Hotspur",
-		"position": "CM"
-},
-"E010": {
-		"Name": "H. Kane",
-		"Age": 24,
-		"Photo": "https://cdn.sofifa.org/players/4/19/202126.png",
-		"Nationality": "England",
-		"Team": "Tottenham Hotspur",
-		"position": "SA"
-	},
+			},
 
 
-	"E011": {
-			"Name": "H. Lloris",
-			"Age": 31,
-			"Photo": "https://cdn.sofifa.org/players/4/19/167948.png",
-			"Nationality": "France",
-			"Team": "Tottenham Hotspur",
-			"position":"KE"
-
-		},
-
-		"E012": {
-				"Name": "V. Kompany",
-				"Age": 32,
-				"Photo": "https://cdn.sofifa.org/players/4/19/139720.png",
-				"Nationality": "Belgium",
-				"Team": "Manchester City",
-				"position":"VMS"
+			"E008": {
+					"Name": "David Silva",
+					"Age": 32,
+					"Photo": "https://cdn.sofifa.org/players/4/19/168542.png",
+					"Nationality": "Spain",
+					"Team": "Manchester City",
+					"position": "CM"
 
 			},
+
+
+			"E009": {
+					"Name": "C. Eriksen",
+					"Age": 26,
+					"Photo": "https://cdn.sofifa.org/players/4/19/190460.png",
+					"Nationality": "Denmark",
+					"Team": "Tottenham Hotspur",
+					"position": "CM"
+
+			},
+
+
+			"E010": {
+					"Name": "H. Kane",
+					"Age": 24,
+					"Photo": "https://cdn.sofifa.org/players/4/19/202126.png",
+					"Nationality": "England",
+					"Team": "Tottenham Hotspur",
+					"position": "SA"
+
+			},
+
+
+			"E011": {
+					"Name": "H. Lloris",
+					"Age": 31,
+					"Photo": "https://cdn.sofifa.org/players/4/19/167948.png",
+					"Nationality": "France",
+					"Team": "Tottenham Hotspur",
+					"position":"KE"
+
+			},
+
+
+			"E012": {
+					"Name": "V. Kompany",
+					"Age": 32,
+					"Photo": "https://cdn.sofifa.org/players/4/19/139720.png",
+					"Nationality": "Belgium",
+					"Team": "Manchester City",
+					"position":"VMS"
+
+			},
+
 
 			"E013": {
 					"Name": "T. Alderweireld",
@@ -382,124 +403,133 @@
 					"Team": "Tottenham Hotspur",
 					"position":"VMS"
 
-				},
-
-				"E014": {
-						"Name": "David Luiz",
-						"Age": 31,
-						"Photo": "https://cdn.sofifa.org/players/4/19/179944.png",
-						"Nationality": "Brazil",
-						"Team": "Chelsea",
-						"position":"VMS"
-
-				},
-
-
-				"E015": {
-						"Name": "Alisson",
-						"Age": 25,
-						"Photo": "https://cdn.sofifa.org/players/4/19/212831.png",
-						"Nationality": "Brazil",
-						"Team": "Liverpool",
-						"position":"KE"
-},
-
-						"E016": {
-		            "Name": "J. Vertonghen",
-		            "Age": 31,
-		            "Photo": "https://cdn.sofifa.org/players/4/19/172871.png",
-		            "Nationality": "Belgium",
-		            "Team": "Tottenham Hotspur",
-								"position":"HMS"
-
-							},
-
-
-							"E017": {
-			            "Name": "Fabinho",
-			            "Age": 24,
-			            "Photo": "https://cdn.sofifa.org/players/4/19/209499.png",
-			            "Nationality": "Brazil",
-			            "Team": "Liverpool",
-									"position":"DM"
-
-								},
-
-									"E018": {
-					            "Name": "Roberto Firmino",
-					            "Age": 26,
-					            "Photo": "https://cdn.sofifa.org/players/4/19/201942.png",
-					            "Nationality": "Brazil",
-					            "Team": "Liverpool",
-											"position":"SA"
-									},
-
-									"E019": {
-											"Name": "J. Henderson",
-											"Age": 28,
-											"Photo": "https://cdn.sofifa.org/players/4/19/183711.png",
-											"Nationality": "England",
-											"team": "Liverpool",
-											"position":"DM"
-
-									},
-
-									"E020": {
-					            "Name": "K. Walker",
-					            "Age": 28,
-					            "Photo": "https://cdn.sofifa.org/players/4/19/188377.png",
-					            "Nationality": "England",
-					            "Team": "Manchester City",
-											"position":"HB"
-
-										},
-
-
-											"E021": {
-													"Name": "Willian",
-													"Age": 29,
-													"Photo": "https://cdn.sofifa.org/players/4/19/180403.png",
-													"Nationality": "Brazil",
-													"Team": "Chelsea",
-													"position":"HV"
-},
-"E022": {
-		"Name": "A. Laporte",
-		"Age": 24,
-		"Photo": "https://cdn.sofifa.org/players/4/19/212218.png",
-		"Nationality": "France",
-		"Team": "Manchester City",
-		"position":"HMS"
-
-	},
-
-	"E023": {
-			"Name": "Pedro",
-			"Age": 30,
-			"Photo": "https://cdn.sofifa.org/players/4/19/189505.png",
-			"Nationality": "Spain",
-			"Team": "Chelsea",
-			"position":"HV"
-
-		},
-
-
-		"E024": {
-				"Name": "R. Mahrez",
-				"Age": 27,
-				"Photo": "https://cdn.sofifa.org/players/4/19/204485.png",
-				"Nationality": "Algeria",
-				"Club": "Manchester City",
-				"position":"HV"
 			},
 
-			"E025": {
-					"Name": "B. Mendy",
-					"Age": 23,
-					"Photo": "https://cdn.sofifa.org/players/4/19/204884.png",
+			"E014": {
+					"Name": "David Luiz",
+					"Age": 31,
+					"Photo": "https://cdn.sofifa.org/players/4/19/179944.png",
+					"Nationality": "Brazil",
+					"Team": "Chelsea",
+					"position":"VMS"
+
+			},
+
+
+			"E015": {
+					"Name": "Alisson",
+					"Age": 25,
+					"Photo": "https://cdn.sofifa.org/players/4/19/212831.png",
+					"Nationality": "Brazil",
+					"Team": "Liverpool",
+					"position":"KE"
+
+				},
+
+			"E016": {
+         "Name": "J. Vertonghen",
+			 	"Age": 31,
+		    "Photo": "https://cdn.sofifa.org/players/4/19/172871.png",
+        "Nationality": "Belgium",
+		    "Team": "Tottenham Hotspur",
+				"position":"HMS"
+
+				},
+
+
+			"E017": {
+		     "Name": "Fabinho",
+	       "Age": 24,
+         "Photo": "https://cdn.sofifa.org/players/4/19/209499.png",
+		   		"Nationality": "Brazil",
+			  	"Team": "Liverpool",
+					"position":"DM"
+
+				},
+
+			"E018": {
+			  	"Name": "Roberto Firmino",
+	        "Age": 26,
+	       	"Photo": "https://cdn.sofifa.org/players/4/19/201942.png",
+					"Nationality": "Brazil",
+					"Team": "Liverpool",
+					"position":"SA"
+
+				},
+
+
+			"E019": {
+					"Name": "J. Henderson",
+					"Age": 28,
+					"Photo": "https://cdn.sofifa.org/players/4/19/183711.png",
+					"Nationality": "England",
+					"team": "Liverpool",
+					"position":"DM"
+
+				},
+
+			"E020": {
+				 "Name": "K. Walker",
+				 "Age": 28,
+				 "Photo": "https://cdn.sofifa.org/players/4/19/188377.png",
+				 "Nationality": "England",
+				 "Team": "Manchester City",
+					"position":"HB"
+
+				},
+
+
+			"E021": {
+					"Name": "Willian",
+					"Age": 29,
+					"Photo": "https://cdn.sofifa.org/players/4/19/180403.png",
+					"Nationality": "Brazil",
+					"Team": "Chelsea",
+					"position":"HV"
+
+				},
+
+			"E022": {
+					"Name": "A. Laporte",
+					"Age": 24,
+					"Photo": "https://cdn.sofifa.org/players/4/19/212218.png",
 					"Nationality": "France",
+					"Team": "Manchester City",
+					"position":"HMS"
+
+				},
+
+
+			"E023": {
+					"Name": "Pedro",
+					"Age": 30,
+					"Photo": "https://cdn.sofifa.org/players/4/19/189505.png",
+					"Nationality": "Spain",
+					"Team": "Chelsea",
+					"position":"HV"
+
+
+				},
+
+
+			"E024": {
+					"Name": "R. Mahrez",
+					"Age": 27,
+					"Photo": "https://cdn.sofifa.org/players/4/19/204485.png",
+					"Nationality": "Algeria",
 					"Club": "Manchester City",
-					"position":"VB"
+					"position":"HV"
+
+				},
+
+				"E025": {
+						"Name": "B. Mendy",
+						"Age": 23,
+						"Photo": "https://cdn.sofifa.org/players/4/19/204884.png",
+						"Nationality": "France",
+						"Club": "Manchester City",
+						"position":"VB"
+							
 			}
 		}
 	}

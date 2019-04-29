@@ -87,6 +87,7 @@ main{
 .Tekst{
   grid-column: 2;
   text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .OverskriftO{

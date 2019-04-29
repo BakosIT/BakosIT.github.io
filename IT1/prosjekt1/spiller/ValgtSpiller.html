@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCedysRszUhQrzthrNBy1F5xiTZpWGws0g",
+    authDomain: "prosjekt1-ad300.firebaseapp.com",
+    databaseURL: "https://prosjekt1-ad300.firebaseio.com",
+    projectId: "prosjekt1-ad300",
+    storageBucket: "prosjekt1-ad300.appspot.com",
+    messagingSenderId: "718699433718"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+  </head>
+  <body>
+
+
+    <main>
+
+
+    </main>
+
+    <script type="text/javascript">
+      const main = document.querySelector("main");
+
+      let url_string = window.location.href;
+      let url = new URL(url_string);
+      let parent = url.searchParams.get("parent");
+      let key = url.searchParams.get("key");
+
+      console.log(key,parent);
+
+      const db = firebase.database();
+      const ValgtSpiller = db.ref("Spillere/"+parent+"/"+key);
+
+      ValgtSpiller.on("value",genererHTML);
+
+
+
+    function genererHTML(snapshot){
+      let key = snapshot.key;
+      let objekt = snapshot.val();
+      let parent = snapshot.ref.parent.key;
+      main.innerHTML +=`
+          <article class="spiller">
+            <h1>${objekt.Name}</h1>
+            <img src="${objekt.Photo}" alt="">
+            <p>Alder: ${objekt.Age}</p>
+            <p>Posisjon: ${objekt.position}
+            <p>Nasjonalitet: ${objekt.Nationality}
+            <p>Lag: ${objekt.Team}
+
+          </article>
+      `;
+    }
+
+
+    </script>
+  </body>
+</html>
